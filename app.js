@@ -1,15 +1,15 @@
 const products = [
-  { id: 'hiraya', name: 'Hiraya', collection: 'Liraya Collection', price: 1290, color: '#d8c4e8', shape: 'tote', tag: 'LIRAYA COLLECTION', description: 'A clean ivory carryall with lilac accents.', image: 'hiraya-crop.png' },
-  { id: 'likha', name: 'Likha', collection: 'Liraya Collection', price: 1490, color: '#f1d9dc', shape: 'satchel', tag: 'LIRAYA COLLECTION', description: 'A polished two-tone style from the signature collection.', image: 'likha-crop.png' },
-  { id: 'hiyas', name: 'Hiyas', collection: 'Liraya Collection', price: 1590, color: '#e9dff0', shape: 'handle', tag: 'LIRAYA COLLECTION', description: 'A structured bag finished with a floral scarf detail.', image: 'hiyas.png' },
-  { id: 'lunelle', name: 'Lunelle', collection: 'Mariluna Collection', price: 1390, color: '#c8d2e8', shape: 'crescent', tag: 'MARILUNA COLLECTION', description: 'A playful silhouette in the Mariluna collection.', image: 'lunelle-crop.png' },
-  { id: 'mayumi', name: 'Mayumi', collection: 'Mariluna Collection', price: 1490, color: '#e5d7bd', shape: 'satchel', tag: 'MARILUNA COLLECTION', description: 'A softly shaped style with a sweet, easy feel.', image: 'mayumi-crop.png' },
-  { id: 'amara', name: 'Amara', collection: 'Hiraya’t Habi Collection', price: 1690, color: '#d6e0cf', shape: 'crescent', tag: 'HIRAYA’T HABI', description: 'A relaxed shoulder bag with contrast panels and tassel detail.', image: 'amara.png' },
-  { id: 'mayari', name: 'Mayari', collection: 'Hiraya’t Habi Collection', price: 1790, color: '#eccfb4', shape: 'tote', tag: 'HIRAYA’T HABI', description: 'A roomy tote with a patterned scarf accent.', image: 'mayari.png' },
-  { id: 'sariyah', name: 'Sariyah', collection: 'Hiraya’t Habi Collection', price: 1890, color: '#e7dce9', shape: 'handle', tag: 'HIRAYA’T HABI', description: 'A structured top-handle bag with a lilac finish.', image: 'sariyah.png' },
-  { id: 'aurelia', name: 'Aurelia', collection: 'Sorelle Collection', price: 1490, color: '#d9d4e5', shape: 'mini', tag: 'SORELLE COLLECTION', description: 'A compact crossbody in deep plum and forest green.', image: 'aurelia.png' },
-  { id: 'mirelle', name: 'Mirelle', collection: 'Sorelle Collection', price: 1690, color: '#e8d7e8', shape: 'satchel', tag: 'SORELLE COLLECTION', description: 'A chain-strap shoulder bag in plum and forest green.', image: 'mirelle-single.png' },
-  { id: 'celestia', name: 'Celestia', collection: 'Sorelle Collection', price: 1890, color: '#d6dfd2', shape: 'handle', tag: 'SORELLE COLLECTION', description: 'A structured plum, ivory, and green bag from Sorelle.', image: 'celestia-crop.png' },
+  { id: 'hiraya', name: 'Hiraya', collection: 'Liraya Collection', price: 899, color: '#d8c4e8', shape: 'tote', tag: 'LIRAYA COLLECTION', description: 'A clean ivory carryall with lilac accents.', image: 'hiraya-crop.png' },
+  { id: 'likha', name: 'Likha', collection: 'Liraya Collection', price: 1099, color: '#f1d9dc', shape: 'satchel', tag: 'LIRAYA COLLECTION', description: 'A polished two-tone style from the signature collection.', image: 'likha-crop.png' },
+  { id: 'hiyas', name: 'Hiyas', collection: 'Liraya Collection', price: 699, color: '#e9dff0', shape: 'handle', tag: 'LIRAYA COLLECTION', description: 'A structured bag finished with a floral scarf detail.', image: 'hiyas.png' },
+  { id: 'lunelle', name: 'Lunelle', collection: 'Mariluna Collection', price: 1499, color: '#c8d2e8', shape: 'crescent', tag: 'MARILUNA COLLECTION', description: 'A playful silhouette in the Mariluna collection.', image: 'lunelle-crop.png' },
+  { id: 'mayumi', name: 'Mayumi', collection: 'Mariluna Collection', price: 1499, color: '#e5d7bd', shape: 'satchel', tag: 'MARILUNA COLLECTION', description: 'A softly shaped style with a sweet, easy feel.', image: 'mayumi-crop.png' },
+  { id: 'amara', name: 'Amara', collection: 'Hiraya’t Habi Collection', price: 1099, color: '#d6e0cf', shape: 'crescent', tag: 'HIRAYA’T HABI', description: 'A relaxed shoulder bag with contrast panels and tassel detail.', image: 'amara.png' },
+  { id: 'mayari', name: 'Mayari', collection: 'Hiraya’t Habi Collection', price: 999, color: '#eccfb4', shape: 'tote', tag: 'HIRAYA’T HABI', description: 'A roomy tote with a patterned scarf accent.', image: 'mayari.png' },
+  { id: 'sariyah', name: 'Sariyah', collection: 'Hiraya’t Habi Collection', price: 1199, color: '#e7dce9', shape: 'handle', tag: 'HIRAYA’T HABI', description: 'A structured top-handle bag with a lilac finish.', image: 'sariyah.png' },
+  { id: 'aurelia', name: 'Aurelia', collection: 'Sorelle Collection', price: 1199, color: '#d9d4e5', shape: 'mini', tag: 'SORELLE COLLECTION', description: 'A compact crossbody in deep plum and forest green.', image: 'aurelia.png' },
+  { id: 'mirelle', name: 'Mirelle', collection: 'Sorelle Collection', price: 1399, color: '#e8d7e8', shape: 'satchel', tag: 'SORELLE COLLECTION', description: 'A chain-strap shoulder bag in plum and forest green.', image: 'mirelle-single.png' },
+  { id: 'celestia', name: 'Celestia', collection: 'Sorelle Collection', price: 1199, color: '#d6dfd2', shape: 'handle', tag: 'SORELLE COLLECTION', description: 'A structured plum, ivory, and green bag from Sorelle.', image: 'celestia-crop.png' },
 ];
 
 const collections = {
@@ -77,7 +77,18 @@ function collectionPage() {
 }
 
 function aboutPage() {
-  return `<main><section class="editorial-hero"><div><div class="eyebrow">OUR BRAND · LIKHA LOKAL</div><h1>Rooted here.<br><em>Made to go with you.</em></h1><p>Likha Lokal is a Filipino student concept for a handmade bag collection—designed for people who want a practical everyday bag with a style of its own.</p><a class="button primary" href="?page=shop#collection">Meet the collections <span>↗</span></a></div><div class="editorial-image"><img src="assets/campaign-story.png" alt="Likha Lokal bag collection display"></div></section><section class="section about-story"><div class="eyebrow">A LITTLE BACKGROUND</div><h2>Local style for <em>everyday life.</em></h2><div class="about-columns"><p>Our idea is to bring locally made, handmade bags to bag enthusiasts through an easy direct-to-customer shopping experience. The collection pairs useful silhouettes with details that feel personal.</p><p>We plan to reach customers through TikTok Shop, LazMall, and Instagram Marketplace. Likha Lokal is built around accessible pricing, practical designs, and an eco-conscious point of view.</p></div><a class="text-link" href="?page=contact">Find our contact channels <span>→</span></a></section></main>`;
+  return `<main><section class="editorial-hero">
+  <div><div class="eyebrow">OUR BRAND · LIKHA LOKAL</div><h1>Rooted here.<br>
+  <em>Made to go with you.</em></h1>
+  <p>Likha Lokal is a Filipino student concept for a handmade bag collection—designed for people who want a practical everyday bag with a style of its own.</p>
+  <a class="button primary" href="?page=shop#collection">Meet the collections <span>↗</span></a></div><div class="editorial-image">
+  <img src="assets/campaign-story.png" alt="Likha Lokal bag collection display"></div></section>
+  <section class="section about-story"><div class="eyebrow">A LITTLE BACKGROUND</div>
+  <h2>Artistry in Every Thread, <em>Purpose in Every Piece.</em></h2><div class="about-columns">
+  <p>At Likha Lokal, we believe that every bag tells a story. Our brand celebrates Filipino creativity and craftsmanship by offering a collection of handmade bags that combine style, practicality, and affordability.</p>
+  <p>Our collection is designed for individuals who appreciate unique designs, functional styles, and locally made products. Whether you're going to school, work, traveling, or spending time with friends, Likha Lokal has a bag that complements your style and fits your everyday needs.</p>
+  <p>Inspired by the beauty of local artistry, Likha Lokal works with Filipino artisans and makers who bring creativity and dedication into every piece. We aim to provide bags that are not only fashionable accessories but also practical companions for everyday activities.</p></div>
+  <a class="text-link" href="?page=contact">Find our contact channels <span>→</span></a></section></main>`;
 }
 
 function benefitsPage() {
@@ -89,7 +100,12 @@ function howPage() {
 }
 
 function contactPage() {
-  return `<main><section class="page-hero contact-hero"><div class="eyebrdow">CONTACT LIKHA LOKAL</div><h1>We’d love to <em>hear from you.</em></h1><p>Questions about a bag or an order? Reach the group through our contact channels below.</p></section><section class="section contact-page"><div class="contact-grid"><article><span class="contact-icon">☎</span><div class="eyebrow">CALL OR TEXT</div><h2>Talk to our team</h2><a href="tel:+639XXXXXXXXX">+63 9XX XXX XXXX</a><small>Replace with your group’s business contact number.</small></article><article><span class="contact-icon">✉</span><div class="eyebrow">EMAIL</div><h2>Send us a note</h2><a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a><small>Replace with your group’s email address.</small></article></div><div class="social-section"><div><div class="eyebrow">SHOP &amp; FOLLOW</div><h2>Find us on your <em>favorite platform.</em></h2><p>Open a platform and search for “Likha Lokal.” Replace these general links with your shop and profile URLs.</p></div><div class="social-links"><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok Shop <span>↗</span></a><a href="https://www.lazada.com.ph/" target="_blank" rel="noopener">LazMall <span>↗</span></a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram Marketplace <span>↗</span></a></div></div></section></main>`;
+  return `<main><section class="page-hero contact-hero"><div class="eyebrdow">CONTACT LIKHA LOKAL</div>
+  <h1>We’d love to <em>hear from you.</em></h1><p>Questions about a bag or an order? Reach the group through our contact channels below.</p></section>
+  <section class="section contact-page"><div class="contact-grid"><article><span class="contact-icon">☎</span>
+  <div class="eyebrow">CALL OR TEXT</div><h2>Talk to our team</h2>
+  <a href="tel:+639123456789">+63 912 345 6789</a></article>
+  <article><span class="contact-icon">✉</span><div class="eyebrow">EMAIL</div><h2>Send us a note</h2><a href="mailto:LikhaLocalPH@gmail.com">LikhaLocalPH@gmail.com</a></article></div><div class="social-section"><div><div class="eyebrow">SHOP &amp; FOLLOW</div><h2>Find us on your <em>favorite platform.</em></h2><p>Open a platform and search for “Likha Lokal.” Replace these general links with your shop and profile URLs.</p></div><div class="social-links"><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok Shop <span>↗</span></a><a href="https://www.lazada.com.ph/" target="_blank" rel="noopener">LazMall <span>↗</span></a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram Marketplace <span>↗</span></a></div></div></section></main>`;
 }
 
 function cartPage() {
