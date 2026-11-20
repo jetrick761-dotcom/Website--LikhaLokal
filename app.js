@@ -105,7 +105,8 @@ function contactPage() {
   <section class="section contact-page"><div class="contact-grid"><article><span class="contact-icon">☎</span>
   <div class="eyebrow">CALL OR TEXT</div><h2>Talk to our team</h2>
   <a href="tel:+639123456789">+63 912 345 6789</a></article>
-  <article><span class="contact-icon">✉</span><div class="eyebrow">EMAIL</div><h2>Send us a note</h2><a href="mailto:LikhaLocalPH@gmail.com">LikhaLocalPH@gmail.com</a></article></div><div class="social-section"><div><div class="eyebrow">SHOP &amp; FOLLOW</div><h2>Find us on your <em>favorite platform.</em></h2><p>Open a platform and search for “Likha Lokal.” Replace these general links with your shop and profile URLs.</p></div><div class="social-links"><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok Shop <span>↗</span></a><a href="https://www.lazada.com.ph/" target="_blank" rel="noopener">LazMall <span>↗</span></a><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram Marketplace <span>↗</span></a></div></div></section></main>`;
+  <article><span class="contact-icon">✉</span><div class="eyebrow">EMAIL</div><h2>Send us a note</h2><a href="mailto:LikhaLocalPH@gmail.com">LikhaLocalPH@gmail.com</a></article></div><div class="social-section"><div><div class="eyebrow">SHOP &amp; FOLLOW</div><h2>Find us on your <em>favorite platform.</em></h2><p>Open a platform and search for “Likha Lokal.” Replace these general links with your shop and profile URLs.</p></div><div class="social-links"><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok Shop <span>↗</span></a><a href="https://www.lazada.com.ph/" target="_blank" rel="noopener">LazMall <span>↗</span></a>
+  <a href="https://www.instagram.com/p/Df9K8iXkr_e/?knvt=MW44anp3dDhzcmoyNA%3D%3D" target="_blank" rel="noopener">Instagram Marketplace <span>↗</span></a></div></div></section></main>`;
 }
 
 function cartPage() {
